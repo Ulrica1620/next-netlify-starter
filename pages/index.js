@@ -5,19 +5,11 @@ import Footer from '@components/Footer'
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
+      <iframe
+        src="https://30days.streamlit.app?embed=true"
+        style="height: 450px; width: 100%;"
+      ></iframe>
     </div>
+  
   )
 }
