@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <iframe
-        src="https://30days.streamlit.app?embed=true"
+        src="https://chenchusheng.streamlit.app?embed=true"
         style="height: 450px; width: 100%;"
       ></iframe>
       </main>
